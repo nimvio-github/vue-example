@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest --environment jsdom --root src/"
+    "test:unit": "vitest --environment jsdom --root src/",
+    "test": "vitest run"
   },
   "dependencies": {
     "@fontsource/dm-mono": "^4.5.10",
